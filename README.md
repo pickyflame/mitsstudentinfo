@@ -20,18 +20,8 @@ It is ideal for class representatives, department coordinators, and campus clubs
 
 ---
 
-## 📁 Project Structure
-
-```text
-mits-student-portal/
-├── index.html        → Main HTML file (entry point)
-├── style.css         → CSS file for styling the page
-├── script.js         → JavaScript file for dynamic functionality (if any)
-├── students.csv      → Student data file (can also be JSON)
-└── README.md         → Project documentation (this file)
-
-Certainly! Below is a **well-structured, professionally written "Getting Started" section** that you can directly copy and paste into your `README.md` file:
-
+📁 Project Structure
+<pre> 📦 mits-student-portal/ ├── 📄 index.html → Main HTML file (entry point) ├── 🎨 style.css → CSS file for styling the page ├── ⚙️ script.js → JavaScript file for dynamic functionality (if any) ├── 📊 students.csv → Student data file (can also be JSON) └── 📘 README.md → Project documentation (this file) </pre>
 ---
 
 ### 🚀 Getting Started
