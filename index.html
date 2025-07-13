@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Student Details Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search Student Details</h1>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <p class="search-instruction">Enter any one field: Name, Enrollment Number, Phone Number, or Email</p>
+        <p class="batch-note">⚠️ Note: This system only shows details of students admitted in the 2024 batch (1st year students).</p>
+        <button id="searchButton">Search</button>
+        <div id="resultsContainer">
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>Enrollment Number</th>
+                        <th>Branch</th>
+                        <th>Name</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Results will appear here -->
+                </tbody>
+            </table>
+            <p id="noResults" style="display: none;">No results found.</p>
+        </div>
+    </div>
+    <div class="disclaimer">
+        <p>⚠️ This website is in early development. You may encounter some errors while using it.</p>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <span>Website developed by amrit</span>
+            <div class="footer-icons">
+                <a href="https://twitter.com/your_twitter" target="_blank" aria-label="Twitter">
+                    <img src="twitter.png.png" alt="Twitter" width="24" height="24" />
+                </a>
+                <a href="https://github.com/pickyflame" target="_blank" aria-label="GitHub">
+                    <img src="github.png.png" alt="GitHub" width="24" height="24" />
+                </a>
+                <a href="https://www.linkedin.com/in/amritanshu-tamrakar-177661329/" target="_blank" aria-label="LinkedIn">
+                    <img src="linkedin.png.png" alt="LinkedIn" width="24" height="24" />
+                </a>
+                <a href="https://t.me/amrit_dev" target="_blank" aria-label="Telegram">
+                    <img src="telegram.svg.svg" alt="Telegram" width="24" height="24" />
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
