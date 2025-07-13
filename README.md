@@ -1,12 +1,8 @@
 # 🎓 MITS Student Details Portal
 
-🔗 **Live Demo:** [mitsstudentinfo.netlify.app](https://mitsstudentinfo.netlify.app)
-
-A simple and responsive web application designed to display student details such as name, branch, phone number, and email ID...
-
-# 🎓 MITS Student Details Portal
-
 A simple and responsive web application designed to display student details such as name, branch, phone number, and email ID. This portal is tailored for use at **Madhav Institute of Technology and Science (MITS), Gwalior**, to help manage and access student records efficiently.
+
+🔗 **Live Demo:** [mitsstudentinfo.netlify.app](https://mitsstudentinfo.netlify.app)
 
 ## 📌 Description
 
